@@ -9,7 +9,7 @@ let semuestra=document.querySelector("#resultadoo");
 formu.addEventListener("submit",suma);
 //buton.addEventListener("click",suma);
 
-function suma(event){
+function suma(event){ //function suma(){
     event.preventDefault();
     let resultado=parseInt(numero1.value)+parseInt(numero2.value);
     semuestra.innerHTML="El resultado es: "+resultado;
